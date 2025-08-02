@@ -1,0 +1,58 @@
+{
+  "documents": {
+    "86749f01-de68-473c-9083-3415813b0be4": {
+      "id": "86749f01-de68-473c-9083-3415813b0be4",
+      "title": "Chat Upload - fpt_soccer_team.pdf",
+      "file_name": "fpt_soccer_team.pdf",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-02 07:46:10.774354",
+      "updated_at": "2025-08-02 07:46:10.774354",
+      "versions": [
+        "c3c94d59-f7d5-4e34-932c-f2d399ed7d11"
+      ],
+      "status": "uploaded"
+    },
+    "e700fb4e-88b8-408b-a8ef-2e99129e0d87": {
+      "id": "e700fb4e-88b8-408b-a8ef-2e99129e0d87",
+      "title": "Chat Upload - fpt_software_company.pdf",
+      "file_name": "fpt_software_company.pdf",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-02 07:46:18.229442",
+      "updated_at": "2025-08-02 07:46:18.229442",
+      "versions": [
+        "953a8d66-b5bb-429f-b606-b37c0a58d0fc"
+      ],
+      "status": "uploaded"
+    }
+  },
+  "versions": {
+    "c3c94d59-f7d5-4e34-932c-f2d399ed7d11": {
+      "id": "c3c94d59-f7d5-4e34-932c-f2d399ed7d11",
+      "document_id": "86749f01-de68-473c-9083-3415813b0be4",
+      "version_number": 1,
+      "file_path": "./uploaded_files/86749f01-de68-473c-9083-3415813b0be4_fpt_soccer_team.pdf",
+      "file_hash": "373a4a0791c3c81937a796d3edce65c725517fb1b9e232ad815d633fc2bbf09f",
+      "embedded": false,
+      "created_at": "2025-08-02 07:46:10.776291"
+    },
+    "953a8d66-b5bb-429f-b606-b37c0a58d0fc": {
+      "id": "953a8d66-b5bb-429f-b606-b37c0a58d0fc",
+      "document_id": "e700fb4e-88b8-408b-a8ef-2e99129e0d87",
+      "version_number": 1,
+      "file_path": "./uploaded_files/e700fb4e-88b8-408b-a8ef-2e99129e0d87_fpt_software_company.pdf",
+      "file_hash": "44aa14f6c5322fa84f94c68a44bac56877d6d4572ad6a07264af710403893ec5",
+      "embedded": false,
+      "created_at": "2025-08-02 07:46:18.237469"
+    }
+  }
+}
