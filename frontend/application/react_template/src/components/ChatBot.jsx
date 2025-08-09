@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
+import { TEMP_API } from './config';
 
 const ChatBot = ({ darkMode }) => {
   const [messages, setMessages] = useState([]);
@@ -86,65 +87,40 @@ const ChatBot = ({ darkMode }) => {
     
     if (file) {
       fileInfo = `[File: ${file.name} (${(file.size / 1024).toFixed(2)} KB)]`;
-      userMessageContent = input.trim() ? `${input} ${fileInfo}` : fileInfo;
+      userMessageContent = `${input}`;
     }
 
     // Add user message to chat
-    const userMessage = { role: 'user', content: userMessageContent, filePreview };
+    const userMessage = { role: 'user', content: userMessageContent, filePreview, fileInfo: `${fileInfo}` };
     setMessages(prevMessages => [...prevMessages, userMessage]);
     setInput('');
     clearFileSelection();
     setIsLoading(true);
 
     try {
+        const formData = new FormData();
+        formData.append('message', input.trim() || '');
       if (file) {
         // For now, we'll just simulate sending the file to the API
         console.log('Would send file to API:', file);
-        
-        /* 
         // In a real implementation, you would use FormData to send the file
-        const formData = new FormData();
-        formData.append('file', file);
-        formData.append('message', input.trim() || '');
-        
-        const response = await fetch('YOUR_AI_API_ENDPOINT', {
+        formData.append('context_file', file);
+      }
+
+      const response = await fetch(`${TEMP_API}/chat`, {
           method: 'POST',
-          headers: {
-            'Authorization': 'Bearer YOUR_API_KEY'
-          },
+          headers: {},
+          // body: formData
           body: formData
         });
         
         const data = await response.json();
-        */
-      }
-
-      // Simulate AI response
-      setTimeout(() => {
-        let responseText = "I'm a demo AI assistant. ";
-        
-        if (file) {
-          responseText += `I see you've uploaded a file: ${file.name}.`;
-          if (file.type.startsWith('image/')) {
-            responseText += 'It looks like an image file. ';
-          } else {
-            responseText += `It appears to be a ${file.type || 'document'} file. `;
-          }
-        }
-        
-        if (input.trim()) {
-          responseText += `You asked: "${input}". `;
-        }
-        
-        responseText += 'In a real implementation, this would call an actual AI API with your file and message.';
-        
         const aiResponse = { 
           role: 'assistant', 
-          content: responseText
+          content: data?.response || "Sorry, there was an error processing your request."
         };
         setMessages(prevMessages => [...prevMessages, aiResponse]);
         setIsLoading(false);
-      }, 1500);
       
     } catch (error) {
       console.error('Error calling AI API:', error);
@@ -190,6 +166,7 @@ const ChatBot = ({ darkMode }) => {
                 </div>
               )}
               {msg.content}
+              <p><i>{msg?.fileInfo ? `File Uploaded: ${msg?.fileInfo}`  : ""}</i></p>
             </div>
           </div>
         ))}
