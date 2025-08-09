@@ -33,6 +33,907 @@
         "953a8d66-b5bb-429f-b606-b37c0a58d0fc"
       ],
       "status": "uploaded"
+    },
+    "1530b93e-4e75-4c36-b72e-966360f89e05": {
+      "id": "1530b93e-4e75-4c36-b72e-966360f89e05",
+      "title": "smile",
+      "file_name": "smile.jpg",
+      "tags": [
+        ""
+      ],
+      "language": "en",
+      "category": "general",
+      "uploaded_by": "system",
+      "created_at": "2025-08-09 04:27:19.067298",
+      "updated_at": "2025-08-09 04:27:19.067298",
+      "versions": [
+        "826d0a5e-74e7-49ec-aa9e-efccee05b28c"
+      ],
+      "status": "uploaded"
+    },
+    "def25e27-521e-41ff-96aa-7ed73987dfaa": {
+      "id": "def25e27-521e-41ff-96aa-7ed73987dfaa",
+      "title": "Chat Upload - smile.jpg",
+      "file_name": "smile.jpg",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 04:32:02.967656",
+      "updated_at": "2025-08-09 04:32:02.967656",
+      "versions": [
+        "b7cfe00d-abd0-4633-8a0b-cf64e4264c3b"
+      ],
+      "status": "uploaded"
+    },
+    "840be716-5dbd-489a-8e48-fa86d66f480c": {
+      "id": "840be716-5dbd-489a-8e48-fa86d66f480c",
+      "title": "Chat Upload - smile.jpg",
+      "file_name": "smile.jpg",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 04:37:31.856702",
+      "updated_at": "2025-08-09 04:37:31.856702",
+      "versions": [
+        "14bf1a4b-5cf4-4a3b-8d80-d376b44d445c"
+      ],
+      "status": "uploaded"
+    },
+    "731cf21d-7b10-44ba-b3e6-bc67c7e66831": {
+      "id": "731cf21d-7b10-44ba-b3e6-bc67c7e66831",
+      "title": "Chat Upload - smile.jpg",
+      "file_name": "smile.jpg",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 04:38:59.598570",
+      "updated_at": "2025-08-09 04:38:59.598570",
+      "versions": [
+        "bc36b1a5-93d3-4be8-afa6-0c891cd8ab77"
+      ],
+      "status": "uploaded"
+    },
+    "460201b3-eac8-4a42-a5db-f76944bc338c": {
+      "id": "460201b3-eac8-4a42-a5db-f76944bc338c",
+      "title": "Chat Upload - smile.jpg",
+      "file_name": "smile.jpg",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 04:42:55.001235",
+      "updated_at": "2025-08-09 04:42:55.001235",
+      "versions": [
+        "89669737-a125-4012-a291-5c315059fcd4"
+      ],
+      "status": "uploaded"
+    },
+    "913dd7d0-0d86-4bae-93d4-63f3c971b5f7": {
+      "id": "913dd7d0-0d86-4bae-93d4-63f3c971b5f7",
+      "title": "Chat Upload - smile.jpg",
+      "file_name": "smile.jpg",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 04:42:59.976856",
+      "updated_at": "2025-08-09 04:42:59.976856",
+      "versions": [
+        "eb4e1c49-1424-45e3-9d23-dc270fdf914d"
+      ],
+      "status": "uploaded"
+    },
+    "df925b95-3116-46a6-aa56-09bef3ed211a": {
+      "id": "df925b95-3116-46a6-aa56-09bef3ed211a",
+      "title": "Chat Upload - smile.jpg",
+      "file_name": "smile.jpg",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 04:43:43.759474",
+      "updated_at": "2025-08-09 04:43:43.759474",
+      "versions": [
+        "348ff07a-a377-4690-be5f-d9b795ada60e"
+      ],
+      "status": "uploaded"
+    },
+    "461e21a1-8290-4800-a78a-4de24d6305e4": {
+      "id": "461e21a1-8290-4800-a78a-4de24d6305e4",
+      "title": "Chat Upload - smile.jpg",
+      "file_name": "smile.jpg",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 04:46:41.092765",
+      "updated_at": "2025-08-09 04:46:41.092765",
+      "versions": [
+        "633c2908-0b07-4a33-b857-b9f71c674d28"
+      ],
+      "status": "uploaded"
+    },
+    "dc58ba75-9490-4c84-949b-2763195b1461": {
+      "id": "dc58ba75-9490-4c84-949b-2763195b1461",
+      "title": "Chat Upload - smile.jpg",
+      "file_name": "smile.jpg",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 04:56:40.034839",
+      "updated_at": "2025-08-09 04:56:40.034839",
+      "versions": [
+        "f1ba3433-708d-44b8-b631-7bd3359d024b"
+      ],
+      "status": "uploaded"
+    },
+    "4e8a65ac-7292-4c5b-be83-c75781850d2f": {
+      "id": "4e8a65ac-7292-4c5b-be83-c75781850d2f",
+      "title": "Chat Upload - smile.jpg",
+      "file_name": "smile.jpg",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 04:57:50.400386",
+      "updated_at": "2025-08-09 04:57:50.400386",
+      "versions": [
+        "5b9923f1-ca6b-4de9-9fe1-cfaee765b1af"
+      ],
+      "status": "uploaded"
+    },
+    "62aaa062-ca5d-4608-9a1f-1f8241eccc6a": {
+      "id": "62aaa062-ca5d-4608-9a1f-1f8241eccc6a",
+      "title": "Chat Upload - smile.jpg",
+      "file_name": "smile.jpg",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 04:59:51.321805",
+      "updated_at": "2025-08-09 04:59:51.321805",
+      "versions": [
+        "cf953a23-977e-42a3-a290-a699aa169679"
+      ],
+      "status": "uploaded"
+    },
+    "568b1e82-f4f7-4bf7-8226-4d20fc6eebf3": {
+      "id": "568b1e82-f4f7-4bf7-8226-4d20fc6eebf3",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 05:06:39.154631",
+      "updated_at": "2025-08-09 05:06:39.154631",
+      "versions": [
+        "6b7f3045-38cd-48c1-8b10-cf68d82805fb"
+      ],
+      "status": "uploaded"
+    },
+    "8502e641-7950-48e7-aaf6-e09fae8f5507": {
+      "id": "8502e641-7950-48e7-aaf6-e09fae8f5507",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 05:41:20.041211",
+      "updated_at": "2025-08-09 05:41:20.041211",
+      "versions": [
+        "cc5a015c-c034-4f35-ab16-ad149f0bf2d1"
+      ],
+      "status": "uploaded"
+    },
+    "ed37fc3a-89ae-4792-bbc9-bde58285fc39": {
+      "id": "ed37fc3a-89ae-4792-bbc9-bde58285fc39",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 05:42:27.186620",
+      "updated_at": "2025-08-09 05:42:27.186620",
+      "versions": [
+        "d1a6ff15-d1e8-422c-952c-5db9fce2fae7"
+      ],
+      "status": "uploaded"
+    },
+    "0c94776c-5d76-409e-86cf-0f41d93a9290": {
+      "id": "0c94776c-5d76-409e-86cf-0f41d93a9290",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:00:15.753295",
+      "updated_at": "2025-08-09 06:00:15.753295",
+      "versions": [
+        "867a46fc-8a69-4812-a10b-e881dd8e5117"
+      ],
+      "status": "uploaded"
+    },
+    "3710e959-0acf-450d-9b78-aa580ce318e3": {
+      "id": "3710e959-0acf-450d-9b78-aa580ce318e3",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:06:10.371363",
+      "updated_at": "2025-08-09 06:06:10.371363",
+      "versions": [
+        "b6a68d79-c557-4112-9a11-ed4ac23636a0"
+      ],
+      "status": "uploaded"
+    },
+    "a0bc253d-e53b-4b3d-bba7-dc6a9a4e777e": {
+      "id": "a0bc253d-e53b-4b3d-bba7-dc6a9a4e777e",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:06:40.269717",
+      "updated_at": "2025-08-09 06:06:40.269717",
+      "versions": [
+        "75083d7c-217a-4671-84c1-7a427df35d52"
+      ],
+      "status": "uploaded"
+    },
+    "e5f11a07-f83b-4694-9459-71e3ec9f97ed": {
+      "id": "e5f11a07-f83b-4694-9459-71e3ec9f97ed",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:09:25.506706",
+      "updated_at": "2025-08-09 06:09:25.506706",
+      "versions": [
+        "cdba4391-0ecf-4396-8bcf-7a0f80db2c03"
+      ],
+      "status": "uploaded"
+    },
+    "f4db6acc-48a0-4edf-95bc-40874074020a": {
+      "id": "f4db6acc-48a0-4edf-95bc-40874074020a",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:09:54.322783",
+      "updated_at": "2025-08-09 06:09:54.322783",
+      "versions": [
+        "dba97e1e-29f8-45cc-939e-2c4a30d162bb"
+      ],
+      "status": "uploaded"
+    },
+    "0e011020-be72-4ee1-b1a2-ba85e1d2d3af": {
+      "id": "0e011020-be72-4ee1-b1a2-ba85e1d2d3af",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:12:21.939469",
+      "updated_at": "2025-08-09 06:12:21.939469",
+      "versions": [
+        "c8b5d34d-742a-46bd-930f-a1b5cadaea8c"
+      ],
+      "status": "uploaded"
+    },
+    "401ad015-9af0-4085-bf50-d33c16ef4007": {
+      "id": "401ad015-9af0-4085-bf50-d33c16ef4007",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:13:16.522279",
+      "updated_at": "2025-08-09 06:13:16.522279",
+      "versions": [
+        "f66f934d-553d-45ae-bbc5-2a0f89fde41b"
+      ],
+      "status": "uploaded"
+    },
+    "56d8e309-773b-4563-be3e-71eac88acd56": {
+      "id": "56d8e309-773b-4563-be3e-71eac88acd56",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:15:09.543608",
+      "updated_at": "2025-08-09 06:15:09.543608",
+      "versions": [
+        "291e44cb-49a4-4a8a-b6c4-5026a5d5ff5d"
+      ],
+      "status": "uploaded"
+    },
+    "c1ea961e-68f1-4ccc-a042-9b022fa10514": {
+      "id": "c1ea961e-68f1-4ccc-a042-9b022fa10514",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:15:20.204137",
+      "updated_at": "2025-08-09 06:15:20.204137",
+      "versions": [
+        "1642fb1b-a270-454b-bae9-b37e7f78183c"
+      ],
+      "status": "uploaded"
+    },
+    "fc27054c-c737-4ba0-8a08-bc43b5b0a307": {
+      "id": "fc27054c-c737-4ba0-8a08-bc43b5b0a307",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:15:43.436000",
+      "updated_at": "2025-08-09 06:15:43.436000",
+      "versions": [
+        "f7948d4b-5c7d-40f1-948b-c4218b82cfc1"
+      ],
+      "status": "uploaded"
+    },
+    "e2f7e68e-c380-414e-b4f1-ea0ea069f9a4": {
+      "id": "e2f7e68e-c380-414e-b4f1-ea0ea069f9a4",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:18:22.984631",
+      "updated_at": "2025-08-09 06:18:22.984631",
+      "versions": [
+        "0e92d5e9-0e13-4422-9fd5-912c27d1acb9"
+      ],
+      "status": "uploaded"
+    },
+    "4c9feff5-2ff1-40aa-a37f-a432454f4a93": {
+      "id": "4c9feff5-2ff1-40aa-a37f-a432454f4a93",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:19:46.394549",
+      "updated_at": "2025-08-09 06:19:46.394549",
+      "versions": [
+        "632922fc-f237-46ad-aad9-bc1acd153361"
+      ],
+      "status": "uploaded"
+    },
+    "80f531d6-d20a-4785-b180-4602d71f65f0": {
+      "id": "80f531d6-d20a-4785-b180-4602d71f65f0",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:20:14.891291",
+      "updated_at": "2025-08-09 06:20:14.891291",
+      "versions": [
+        "9332d64b-adf3-4f08-a038-44a2b1e2de18"
+      ],
+      "status": "uploaded"
+    },
+    "ded1c2d6-8a9c-4203-9e26-f7721cda6fe4": {
+      "id": "ded1c2d6-8a9c-4203-9e26-f7721cda6fe4",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:42:42.902598",
+      "updated_at": "2025-08-09 06:42:42.902598",
+      "versions": [
+        "5b31dc0b-05f9-42c1-9128-b799d51adc9e"
+      ],
+      "status": "uploaded"
+    },
+    "7f314582-998f-46ff-98f9-4f1fcc7b060a": {
+      "id": "7f314582-998f-46ff-98f9-4f1fcc7b060a",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:43:27.215598",
+      "updated_at": "2025-08-09 06:43:27.215598",
+      "versions": [
+        "b589f08c-78e6-4ba6-85ee-0ae973ef3bde"
+      ],
+      "status": "uploaded"
+    },
+    "82b43fd3-49df-46e4-81c1-1126a88375d3": {
+      "id": "82b43fd3-49df-46e4-81c1-1126a88375d3",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:44:40.392867",
+      "updated_at": "2025-08-09 06:44:40.392867",
+      "versions": [
+        "4ac9231b-4a71-413a-84c4-0899d559be09"
+      ],
+      "status": "uploaded"
+    },
+    "d83efd5a-a2ac-4bf8-a72a-6f42afd7b8a4": {
+      "id": "d83efd5a-a2ac-4bf8-a72a-6f42afd7b8a4",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:46:37.403465",
+      "updated_at": "2025-08-09 06:46:37.403465",
+      "versions": [
+        "5502c549-e045-4c54-b46e-e2ebd46ffc82"
+      ],
+      "status": "uploaded"
+    },
+    "4ecf5f02-be8b-418d-a29e-b480b43894d0": {
+      "id": "4ecf5f02-be8b-418d-a29e-b480b43894d0",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:49:16.957295",
+      "updated_at": "2025-08-09 06:49:16.957295",
+      "versions": [
+        "a0416b92-c0ea-40b3-9184-f4afca58ab0d"
+      ],
+      "status": "uploaded"
+    },
+    "cbd95e04-1215-475c-816e-39e744306e80": {
+      "id": "cbd95e04-1215-475c-816e-39e744306e80",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:50:43.467071",
+      "updated_at": "2025-08-09 06:50:43.467071",
+      "versions": [
+        "e0f10c9b-af2b-4f64-ab4c-996d85aac16d"
+      ],
+      "status": "uploaded"
+    },
+    "df2347f5-3d12-46d2-9a8e-e349f0165a40": {
+      "id": "df2347f5-3d12-46d2-9a8e-e349f0165a40",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:52:18.986146",
+      "updated_at": "2025-08-09 06:52:18.986146",
+      "versions": [
+        "f42a67cf-6183-4482-ba7e-ab40486081f2"
+      ],
+      "status": "uploaded"
+    },
+    "dc08a6ed-96fc-45cd-a233-b1112ee513da": {
+      "id": "dc08a6ed-96fc-45cd-a233-b1112ee513da",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:54:46.286289",
+      "updated_at": "2025-08-09 06:54:46.286289",
+      "versions": [
+        "3d2e1180-43de-45aa-ad8d-f06ff59e4d55"
+      ],
+      "status": "uploaded"
+    },
+    "6b7f1105-a439-48ce-9554-99ecd7fc774f": {
+      "id": "6b7f1105-a439-48ce-9554-99ecd7fc774f",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:55:24.787122",
+      "updated_at": "2025-08-09 06:55:24.787122",
+      "versions": [
+        "20f3b5eb-f9bb-4585-a643-8ae0f14764fe"
+      ],
+      "status": "uploaded"
+    },
+    "d9385985-673b-4cdc-840a-35c7ddec842b": {
+      "id": "d9385985-673b-4cdc-840a-35c7ddec842b",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:58:06.560340",
+      "updated_at": "2025-08-09 06:58:06.560340",
+      "versions": [
+        "eebca3a4-da5f-4f4d-82e2-d615253a3274"
+      ],
+      "status": "uploaded"
+    },
+    "57adf836-0471-46b4-aa3f-9089e0fd4ac4": {
+      "id": "57adf836-0471-46b4-aa3f-9089e0fd4ac4",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 06:58:42.682566",
+      "updated_at": "2025-08-09 06:58:42.682566",
+      "versions": [
+        "5e701690-4e90-4ac4-b06b-5b87de4a5e65"
+      ],
+      "status": "uploaded"
+    },
+    "12275bb7-fa58-446b-a022-20d9bd62d246": {
+      "id": "12275bb7-fa58-446b-a022-20d9bd62d246",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 07:00:08.512847",
+      "updated_at": "2025-08-09 07:00:08.512847",
+      "versions": [
+        "0e7780a6-77c7-4a72-9362-d86b90e45c46"
+      ],
+      "status": "uploaded"
+    },
+    "243b5618-0405-4b15-85f1-33a97801706b": {
+      "id": "243b5618-0405-4b15-85f1-33a97801706b",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 07:00:55.327015",
+      "updated_at": "2025-08-09 07:00:55.327015",
+      "versions": [
+        "b3d2458f-3f96-43a2-8aa2-86a43a51243d"
+      ],
+      "status": "uploaded"
+    },
+    "e165d1d7-f601-4475-8f9a-ddf423509118": {
+      "id": "e165d1d7-f601-4475-8f9a-ddf423509118",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 07:02:30.284815",
+      "updated_at": "2025-08-09 07:02:30.284815",
+      "versions": [
+        "0c6747d1-1386-4a67-a4ff-048c85dc7153"
+      ],
+      "status": "uploaded"
+    },
+    "3d3ba4aa-d22c-4182-a9ca-b6d9b846316a": {
+      "id": "3d3ba4aa-d22c-4182-a9ca-b6d9b846316a",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 07:12:11.432582",
+      "updated_at": "2025-08-09 07:12:11.432582",
+      "versions": [
+        "fae9ca87-2772-4824-93fb-e553d07ef41d"
+      ],
+      "status": "uploaded"
+    },
+    "93bf6f6b-b252-491b-927f-0e3d88b62638": {
+      "id": "93bf6f6b-b252-491b-927f-0e3d88b62638",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 07:13:25.670040",
+      "updated_at": "2025-08-09 07:13:25.670040",
+      "versions": [
+        "992feb49-9bce-4f41-b8d1-e530e9131729"
+      ],
+      "status": "uploaded"
+    },
+    "211f34e3-5167-4325-8368-7f87a7b33698": {
+      "id": "211f34e3-5167-4325-8368-7f87a7b33698",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 07:14:00.107507",
+      "updated_at": "2025-08-09 07:14:00.107507",
+      "versions": [
+        "fbf4d938-e0e6-420d-a7f0-06709f40c316"
+      ],
+      "status": "uploaded"
+    },
+    "610685e7-e724-4224-9cfc-81782f7117bc": {
+      "id": "610685e7-e724-4224-9cfc-81782f7117bc",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 07:19:42.744163",
+      "updated_at": "2025-08-09 07:19:42.744163",
+      "versions": [
+        "90f6349f-42c2-4764-acb6-70243202d9c5"
+      ],
+      "status": "uploaded"
+    },
+    "af87a0ad-4fa3-46b0-8637-f59f06a06099": {
+      "id": "af87a0ad-4fa3-46b0-8637-f59f06a06099",
+      "title": "Chat Upload - test.png",
+      "file_name": "test.png",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 07:20:37.464793",
+      "updated_at": "2025-08-09 07:20:37.464793",
+      "versions": [
+        "552b6bcc-cf96-4a51-ae29-f94c0d2b4162"
+      ],
+      "status": "uploaded"
+    },
+    "fe9f773e-7abb-4b39-9b33-c5918dd8cf9b": {
+      "id": "fe9f773e-7abb-4b39-9b33-c5918dd8cf9b",
+      "title": "Chat Upload - smile.jpg",
+      "file_name": "smile.jpg",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 07:37:47.067876",
+      "updated_at": "2025-08-09 07:37:47.067876",
+      "versions": [
+        "dbc986d3-e7ba-44c6-95e7-e1c861b0a166"
+      ],
+      "status": "uploaded"
+    },
+    "22fc0cde-69cc-4a06-ac1e-454d294cadd9": {
+      "id": "22fc0cde-69cc-4a06-ac1e-454d294cadd9",
+      "title": "Chat Upload - smile.jpg",
+      "file_name": "smile.jpg",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 07:39:30.139541",
+      "updated_at": "2025-08-09 07:39:30.139541",
+      "versions": [
+        "ef9b0aae-5cdd-4167-a4fd-6d5f3df91f66"
+      ],
+      "status": "uploaded"
+    },
+    "c83f1c99-4e2c-4662-918f-3d143f049481": {
+      "id": "c83f1c99-4e2c-4662-918f-3d143f049481",
+      "title": "Chat Upload - smile.jpg",
+      "file_name": "smile.jpg",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 07:39:59.693185",
+      "updated_at": "2025-08-09 07:39:59.693185",
+      "versions": [
+        "cff9045f-9cda-40ca-8a19-e8fb513cc055"
+      ],
+      "status": "uploaded"
+    },
+    "261836c6-4624-435f-9b8f-210263cb291c": {
+      "id": "261836c6-4624-435f-9b8f-210263cb291c",
+      "title": "Chat Upload - smile.jpg",
+      "file_name": "smile.jpg",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 07:40:29.847091",
+      "updated_at": "2025-08-09 07:40:29.847091",
+      "versions": [
+        "bebd2abb-e5d6-4ea9-908a-3b68f1171e24"
+      ],
+      "status": "uploaded"
+    },
+    "24f241f2-dd8e-49f4-bd37-671bd578861d": {
+      "id": "24f241f2-dd8e-49f4-bd37-671bd578861d",
+      "title": "Chat Upload - smile.jpg",
+      "file_name": "smile.jpg",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 07:42:00.825160",
+      "updated_at": "2025-08-09 07:42:00.825160",
+      "versions": [
+        "6146ae00-d2b5-441b-b77d-c26c5756b7c7"
+      ],
+      "status": "uploaded"
+    },
+    "aab48dfa-e53f-4c8c-949d-07b44f81ae23": {
+      "id": "aab48dfa-e53f-4c8c-949d-07b44f81ae23",
+      "title": "Chat Upload - smile.jpg",
+      "file_name": "smile.jpg",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 07:42:26.762650",
+      "updated_at": "2025-08-09 07:42:26.762650",
+      "versions": [
+        "03bd4759-656b-41eb-9926-cb90c30ec49e"
+      ],
+      "status": "uploaded"
+    },
+    "b32666be-d19f-423e-afbe-e43c699d6849": {
+      "id": "b32666be-d19f-423e-afbe-e43c699d6849",
+      "title": "Chat Upload - smile.jpg",
+      "file_name": "smile.jpg",
+      "tags": [
+        "chat-upload"
+      ],
+      "language": "en",
+      "category": "chat",
+      "uploaded_by": "chat-service",
+      "created_at": "2025-08-09 07:43:08.474019",
+      "updated_at": "2025-08-09 07:43:08.474019",
+      "versions": [
+        "a64d7ba1-8395-4c3c-be9a-30a11d80b7f5"
+      ],
+      "status": "uploaded"
     }
   },
   "versions": {
@@ -53,6 +954,483 @@
       "file_hash": "44aa14f6c5322fa84f94c68a44bac56877d6d4572ad6a07264af710403893ec5",
       "embedded": false,
       "created_at": "2025-08-02 07:46:18.237469"
+    },
+    "826d0a5e-74e7-49ec-aa9e-efccee05b28c": {
+      "id": "826d0a5e-74e7-49ec-aa9e-efccee05b28c",
+      "document_id": "1530b93e-4e75-4c36-b72e-966360f89e05",
+      "version_number": 1,
+      "file_path": "./uploaded_files/1530b93e-4e75-4c36-b72e-966360f89e05_smile.jpg",
+      "file_hash": "e798eb42193868c4f2c21a56a7720412f6d45dff44fd153809704e017f5779c6",
+      "embedded": false,
+      "created_at": "2025-08-09 04:27:19.067651"
+    },
+    "b7cfe00d-abd0-4633-8a0b-cf64e4264c3b": {
+      "id": "b7cfe00d-abd0-4633-8a0b-cf64e4264c3b",
+      "document_id": "def25e27-521e-41ff-96aa-7ed73987dfaa",
+      "version_number": 1,
+      "file_path": "./uploaded_files/def25e27-521e-41ff-96aa-7ed73987dfaa_smile.jpg",
+      "file_hash": "e798eb42193868c4f2c21a56a7720412f6d45dff44fd153809704e017f5779c6",
+      "embedded": false,
+      "created_at": "2025-08-09 04:32:02.968160"
+    },
+    "14bf1a4b-5cf4-4a3b-8d80-d376b44d445c": {
+      "id": "14bf1a4b-5cf4-4a3b-8d80-d376b44d445c",
+      "document_id": "840be716-5dbd-489a-8e48-fa86d66f480c",
+      "version_number": 1,
+      "file_path": "./uploaded_files/840be716-5dbd-489a-8e48-fa86d66f480c_smile.jpg",
+      "file_hash": "e798eb42193868c4f2c21a56a7720412f6d45dff44fd153809704e017f5779c6",
+      "embedded": false,
+      "created_at": "2025-08-09 04:37:31.857121"
+    },
+    "bc36b1a5-93d3-4be8-afa6-0c891cd8ab77": {
+      "id": "bc36b1a5-93d3-4be8-afa6-0c891cd8ab77",
+      "document_id": "731cf21d-7b10-44ba-b3e6-bc67c7e66831",
+      "version_number": 1,
+      "file_path": "./uploaded_files/731cf21d-7b10-44ba-b3e6-bc67c7e66831_smile.jpg",
+      "file_hash": "e798eb42193868c4f2c21a56a7720412f6d45dff44fd153809704e017f5779c6",
+      "embedded": false,
+      "created_at": "2025-08-09 04:38:59.598978"
+    },
+    "89669737-a125-4012-a291-5c315059fcd4": {
+      "id": "89669737-a125-4012-a291-5c315059fcd4",
+      "document_id": "460201b3-eac8-4a42-a5db-f76944bc338c",
+      "version_number": 1,
+      "file_path": "./uploaded_files/460201b3-eac8-4a42-a5db-f76944bc338c_smile.jpg",
+      "file_hash": "e798eb42193868c4f2c21a56a7720412f6d45dff44fd153809704e017f5779c6",
+      "embedded": false,
+      "created_at": "2025-08-09 04:42:55.001584"
+    },
+    "eb4e1c49-1424-45e3-9d23-dc270fdf914d": {
+      "id": "eb4e1c49-1424-45e3-9d23-dc270fdf914d",
+      "document_id": "913dd7d0-0d86-4bae-93d4-63f3c971b5f7",
+      "version_number": 1,
+      "file_path": "./uploaded_files/913dd7d0-0d86-4bae-93d4-63f3c971b5f7_smile.jpg",
+      "file_hash": "e798eb42193868c4f2c21a56a7720412f6d45dff44fd153809704e017f5779c6",
+      "embedded": false,
+      "created_at": "2025-08-09 04:42:59.977318"
+    },
+    "348ff07a-a377-4690-be5f-d9b795ada60e": {
+      "id": "348ff07a-a377-4690-be5f-d9b795ada60e",
+      "document_id": "df925b95-3116-46a6-aa56-09bef3ed211a",
+      "version_number": 1,
+      "file_path": "./uploaded_files/df925b95-3116-46a6-aa56-09bef3ed211a_smile.jpg",
+      "file_hash": "e798eb42193868c4f2c21a56a7720412f6d45dff44fd153809704e017f5779c6",
+      "embedded": false,
+      "created_at": "2025-08-09 04:43:43.759991"
+    },
+    "633c2908-0b07-4a33-b857-b9f71c674d28": {
+      "id": "633c2908-0b07-4a33-b857-b9f71c674d28",
+      "document_id": "461e21a1-8290-4800-a78a-4de24d6305e4",
+      "version_number": 1,
+      "file_path": "./uploaded_files/461e21a1-8290-4800-a78a-4de24d6305e4_smile.jpg",
+      "file_hash": "e798eb42193868c4f2c21a56a7720412f6d45dff44fd153809704e017f5779c6",
+      "embedded": false,
+      "created_at": "2025-08-09 04:46:41.093361"
+    },
+    "f1ba3433-708d-44b8-b631-7bd3359d024b": {
+      "id": "f1ba3433-708d-44b8-b631-7bd3359d024b",
+      "document_id": "dc58ba75-9490-4c84-949b-2763195b1461",
+      "version_number": 1,
+      "file_path": "./uploaded_files/dc58ba75-9490-4c84-949b-2763195b1461_smile.jpg",
+      "file_hash": "e798eb42193868c4f2c21a56a7720412f6d45dff44fd153809704e017f5779c6",
+      "embedded": false,
+      "created_at": "2025-08-09 04:56:40.035392"
+    },
+    "5b9923f1-ca6b-4de9-9fe1-cfaee765b1af": {
+      "id": "5b9923f1-ca6b-4de9-9fe1-cfaee765b1af",
+      "document_id": "4e8a65ac-7292-4c5b-be83-c75781850d2f",
+      "version_number": 1,
+      "file_path": "./uploaded_files/4e8a65ac-7292-4c5b-be83-c75781850d2f_smile.jpg",
+      "file_hash": "e798eb42193868c4f2c21a56a7720412f6d45dff44fd153809704e017f5779c6",
+      "embedded": false,
+      "created_at": "2025-08-09 04:57:50.400628"
+    },
+    "cf953a23-977e-42a3-a290-a699aa169679": {
+      "id": "cf953a23-977e-42a3-a290-a699aa169679",
+      "document_id": "62aaa062-ca5d-4608-9a1f-1f8241eccc6a",
+      "version_number": 1,
+      "file_path": "./uploaded_files/62aaa062-ca5d-4608-9a1f-1f8241eccc6a_smile.jpg",
+      "file_hash": "e798eb42193868c4f2c21a56a7720412f6d45dff44fd153809704e017f5779c6",
+      "embedded": false,
+      "created_at": "2025-08-09 04:59:51.322469"
+    },
+    "6b7f3045-38cd-48c1-8b10-cf68d82805fb": {
+      "id": "6b7f3045-38cd-48c1-8b10-cf68d82805fb",
+      "document_id": "568b1e82-f4f7-4bf7-8226-4d20fc6eebf3",
+      "version_number": 1,
+      "file_path": "./uploaded_files/568b1e82-f4f7-4bf7-8226-4d20fc6eebf3_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 05:06:39.155163"
+    },
+    "cc5a015c-c034-4f35-ab16-ad149f0bf2d1": {
+      "id": "cc5a015c-c034-4f35-ab16-ad149f0bf2d1",
+      "document_id": "8502e641-7950-48e7-aaf6-e09fae8f5507",
+      "version_number": 1,
+      "file_path": "./uploaded_files/8502e641-7950-48e7-aaf6-e09fae8f5507_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 05:41:20.041539"
+    },
+    "d1a6ff15-d1e8-422c-952c-5db9fce2fae7": {
+      "id": "d1a6ff15-d1e8-422c-952c-5db9fce2fae7",
+      "document_id": "ed37fc3a-89ae-4792-bbc9-bde58285fc39",
+      "version_number": 1,
+      "file_path": "./uploaded_files/ed37fc3a-89ae-4792-bbc9-bde58285fc39_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 05:42:27.187160"
+    },
+    "867a46fc-8a69-4812-a10b-e881dd8e5117": {
+      "id": "867a46fc-8a69-4812-a10b-e881dd8e5117",
+      "document_id": "0c94776c-5d76-409e-86cf-0f41d93a9290",
+      "version_number": 1,
+      "file_path": "./uploaded_files/0c94776c-5d76-409e-86cf-0f41d93a9290_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:00:15.753888"
+    },
+    "b6a68d79-c557-4112-9a11-ed4ac23636a0": {
+      "id": "b6a68d79-c557-4112-9a11-ed4ac23636a0",
+      "document_id": "3710e959-0acf-450d-9b78-aa580ce318e3",
+      "version_number": 1,
+      "file_path": "./uploaded_files/3710e959-0acf-450d-9b78-aa580ce318e3_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:06:10.371799"
+    },
+    "75083d7c-217a-4671-84c1-7a427df35d52": {
+      "id": "75083d7c-217a-4671-84c1-7a427df35d52",
+      "document_id": "a0bc253d-e53b-4b3d-bba7-dc6a9a4e777e",
+      "version_number": 1,
+      "file_path": "./uploaded_files/a0bc253d-e53b-4b3d-bba7-dc6a9a4e777e_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:06:40.270304"
+    },
+    "cdba4391-0ecf-4396-8bcf-7a0f80db2c03": {
+      "id": "cdba4391-0ecf-4396-8bcf-7a0f80db2c03",
+      "document_id": "e5f11a07-f83b-4694-9459-71e3ec9f97ed",
+      "version_number": 1,
+      "file_path": "./uploaded_files/e5f11a07-f83b-4694-9459-71e3ec9f97ed_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:09:25.507103"
+    },
+    "dba97e1e-29f8-45cc-939e-2c4a30d162bb": {
+      "id": "dba97e1e-29f8-45cc-939e-2c4a30d162bb",
+      "document_id": "f4db6acc-48a0-4edf-95bc-40874074020a",
+      "version_number": 1,
+      "file_path": "./uploaded_files/f4db6acc-48a0-4edf-95bc-40874074020a_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:09:54.323233"
+    },
+    "c8b5d34d-742a-46bd-930f-a1b5cadaea8c": {
+      "id": "c8b5d34d-742a-46bd-930f-a1b5cadaea8c",
+      "document_id": "0e011020-be72-4ee1-b1a2-ba85e1d2d3af",
+      "version_number": 1,
+      "file_path": "./uploaded_files/0e011020-be72-4ee1-b1a2-ba85e1d2d3af_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:12:21.940039"
+    },
+    "f66f934d-553d-45ae-bbc5-2a0f89fde41b": {
+      "id": "f66f934d-553d-45ae-bbc5-2a0f89fde41b",
+      "document_id": "401ad015-9af0-4085-bf50-d33c16ef4007",
+      "version_number": 1,
+      "file_path": "./uploaded_files/401ad015-9af0-4085-bf50-d33c16ef4007_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:13:16.522725"
+    },
+    "291e44cb-49a4-4a8a-b6c4-5026a5d5ff5d": {
+      "id": "291e44cb-49a4-4a8a-b6c4-5026a5d5ff5d",
+      "document_id": "56d8e309-773b-4563-be3e-71eac88acd56",
+      "version_number": 1,
+      "file_path": "./uploaded_files/56d8e309-773b-4563-be3e-71eac88acd56_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:15:09.543918"
+    },
+    "1642fb1b-a270-454b-bae9-b37e7f78183c": {
+      "id": "1642fb1b-a270-454b-bae9-b37e7f78183c",
+      "document_id": "c1ea961e-68f1-4ccc-a042-9b022fa10514",
+      "version_number": 1,
+      "file_path": "./uploaded_files/c1ea961e-68f1-4ccc-a042-9b022fa10514_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:15:20.204648"
+    },
+    "f7948d4b-5c7d-40f1-948b-c4218b82cfc1": {
+      "id": "f7948d4b-5c7d-40f1-948b-c4218b82cfc1",
+      "document_id": "fc27054c-c737-4ba0-8a08-bc43b5b0a307",
+      "version_number": 1,
+      "file_path": "./uploaded_files/fc27054c-c737-4ba0-8a08-bc43b5b0a307_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:15:43.436320"
+    },
+    "0e92d5e9-0e13-4422-9fd5-912c27d1acb9": {
+      "id": "0e92d5e9-0e13-4422-9fd5-912c27d1acb9",
+      "document_id": "e2f7e68e-c380-414e-b4f1-ea0ea069f9a4",
+      "version_number": 1,
+      "file_path": "./uploaded_files/e2f7e68e-c380-414e-b4f1-ea0ea069f9a4_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:18:22.985374"
+    },
+    "632922fc-f237-46ad-aad9-bc1acd153361": {
+      "id": "632922fc-f237-46ad-aad9-bc1acd153361",
+      "document_id": "4c9feff5-2ff1-40aa-a37f-a432454f4a93",
+      "version_number": 1,
+      "file_path": "./uploaded_files/4c9feff5-2ff1-40aa-a37f-a432454f4a93_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:19:46.395071"
+    },
+    "9332d64b-adf3-4f08-a038-44a2b1e2de18": {
+      "id": "9332d64b-adf3-4f08-a038-44a2b1e2de18",
+      "document_id": "80f531d6-d20a-4785-b180-4602d71f65f0",
+      "version_number": 1,
+      "file_path": "./uploaded_files/80f531d6-d20a-4785-b180-4602d71f65f0_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:20:14.891701"
+    },
+    "5b31dc0b-05f9-42c1-9128-b799d51adc9e": {
+      "id": "5b31dc0b-05f9-42c1-9128-b799d51adc9e",
+      "document_id": "ded1c2d6-8a9c-4203-9e26-f7721cda6fe4",
+      "version_number": 1,
+      "file_path": "./uploaded_files/ded1c2d6-8a9c-4203-9e26-f7721cda6fe4_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:42:42.902761"
+    },
+    "b589f08c-78e6-4ba6-85ee-0ae973ef3bde": {
+      "id": "b589f08c-78e6-4ba6-85ee-0ae973ef3bde",
+      "document_id": "7f314582-998f-46ff-98f9-4f1fcc7b060a",
+      "version_number": 1,
+      "file_path": "./uploaded_files/7f314582-998f-46ff-98f9-4f1fcc7b060a_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:43:27.215764"
+    },
+    "4ac9231b-4a71-413a-84c4-0899d559be09": {
+      "id": "4ac9231b-4a71-413a-84c4-0899d559be09",
+      "document_id": "82b43fd3-49df-46e4-81c1-1126a88375d3",
+      "version_number": 1,
+      "file_path": "./uploaded_files/82b43fd3-49df-46e4-81c1-1126a88375d3_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:44:40.393026"
+    },
+    "5502c549-e045-4c54-b46e-e2ebd46ffc82": {
+      "id": "5502c549-e045-4c54-b46e-e2ebd46ffc82",
+      "document_id": "d83efd5a-a2ac-4bf8-a72a-6f42afd7b8a4",
+      "version_number": 1,
+      "file_path": "./uploaded_files/d83efd5a-a2ac-4bf8-a72a-6f42afd7b8a4_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:46:37.403719"
+    },
+    "a0416b92-c0ea-40b3-9184-f4afca58ab0d": {
+      "id": "a0416b92-c0ea-40b3-9184-f4afca58ab0d",
+      "document_id": "4ecf5f02-be8b-418d-a29e-b480b43894d0",
+      "version_number": 1,
+      "file_path": "./uploaded_files/4ecf5f02-be8b-418d-a29e-b480b43894d0_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:49:16.957447"
+    },
+    "e0f10c9b-af2b-4f64-ab4c-996d85aac16d": {
+      "id": "e0f10c9b-af2b-4f64-ab4c-996d85aac16d",
+      "document_id": "cbd95e04-1215-475c-816e-39e744306e80",
+      "version_number": 1,
+      "file_path": "./uploaded_files/cbd95e04-1215-475c-816e-39e744306e80_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:50:43.467222"
+    },
+    "f42a67cf-6183-4482-ba7e-ab40486081f2": {
+      "id": "f42a67cf-6183-4482-ba7e-ab40486081f2",
+      "document_id": "df2347f5-3d12-46d2-9a8e-e349f0165a40",
+      "version_number": 1,
+      "file_path": "./uploaded_files/df2347f5-3d12-46d2-9a8e-e349f0165a40_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:52:18.986393"
+    },
+    "3d2e1180-43de-45aa-ad8d-f06ff59e4d55": {
+      "id": "3d2e1180-43de-45aa-ad8d-f06ff59e4d55",
+      "document_id": "dc08a6ed-96fc-45cd-a233-b1112ee513da",
+      "version_number": 1,
+      "file_path": "./uploaded_files/dc08a6ed-96fc-45cd-a233-b1112ee513da_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:54:46.286462"
+    },
+    "20f3b5eb-f9bb-4585-a643-8ae0f14764fe": {
+      "id": "20f3b5eb-f9bb-4585-a643-8ae0f14764fe",
+      "document_id": "6b7f1105-a439-48ce-9554-99ecd7fc774f",
+      "version_number": 1,
+      "file_path": "./uploaded_files/6b7f1105-a439-48ce-9554-99ecd7fc774f_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:55:24.787291"
+    },
+    "eebca3a4-da5f-4f4d-82e2-d615253a3274": {
+      "id": "eebca3a4-da5f-4f4d-82e2-d615253a3274",
+      "document_id": "d9385985-673b-4cdc-840a-35c7ddec842b",
+      "version_number": 1,
+      "file_path": "./uploaded_files/d9385985-673b-4cdc-840a-35c7ddec842b_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:58:06.560610"
+    },
+    "5e701690-4e90-4ac4-b06b-5b87de4a5e65": {
+      "id": "5e701690-4e90-4ac4-b06b-5b87de4a5e65",
+      "document_id": "57adf836-0471-46b4-aa3f-9089e0fd4ac4",
+      "version_number": 1,
+      "file_path": "./uploaded_files/57adf836-0471-46b4-aa3f-9089e0fd4ac4_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 06:58:42.682817"
+    },
+    "0e7780a6-77c7-4a72-9362-d86b90e45c46": {
+      "id": "0e7780a6-77c7-4a72-9362-d86b90e45c46",
+      "document_id": "12275bb7-fa58-446b-a022-20d9bd62d246",
+      "version_number": 1,
+      "file_path": "./uploaded_files/12275bb7-fa58-446b-a022-20d9bd62d246_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 07:00:08.520035"
+    },
+    "b3d2458f-3f96-43a2-8aa2-86a43a51243d": {
+      "id": "b3d2458f-3f96-43a2-8aa2-86a43a51243d",
+      "document_id": "243b5618-0405-4b15-85f1-33a97801706b",
+      "version_number": 1,
+      "file_path": "./uploaded_files/243b5618-0405-4b15-85f1-33a97801706b_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 07:00:55.327172"
+    },
+    "0c6747d1-1386-4a67-a4ff-048c85dc7153": {
+      "id": "0c6747d1-1386-4a67-a4ff-048c85dc7153",
+      "document_id": "e165d1d7-f601-4475-8f9a-ddf423509118",
+      "version_number": 1,
+      "file_path": "./uploaded_files/e165d1d7-f601-4475-8f9a-ddf423509118_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 07:02:30.285086"
+    },
+    "fae9ca87-2772-4824-93fb-e553d07ef41d": {
+      "id": "fae9ca87-2772-4824-93fb-e553d07ef41d",
+      "document_id": "3d3ba4aa-d22c-4182-a9ca-b6d9b846316a",
+      "version_number": 1,
+      "file_path": "./uploaded_files/3d3ba4aa-d22c-4182-a9ca-b6d9b846316a_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 07:12:11.432800"
+    },
+    "992feb49-9bce-4f41-b8d1-e530e9131729": {
+      "id": "992feb49-9bce-4f41-b8d1-e530e9131729",
+      "document_id": "93bf6f6b-b252-491b-927f-0e3d88b62638",
+      "version_number": 1,
+      "file_path": "./uploaded_files/93bf6f6b-b252-491b-927f-0e3d88b62638_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 07:13:25.670199"
+    },
+    "fbf4d938-e0e6-420d-a7f0-06709f40c316": {
+      "id": "fbf4d938-e0e6-420d-a7f0-06709f40c316",
+      "document_id": "211f34e3-5167-4325-8368-7f87a7b33698",
+      "version_number": 1,
+      "file_path": "./uploaded_files/211f34e3-5167-4325-8368-7f87a7b33698_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 07:14:00.107752"
+    },
+    "90f6349f-42c2-4764-acb6-70243202d9c5": {
+      "id": "90f6349f-42c2-4764-acb6-70243202d9c5",
+      "document_id": "610685e7-e724-4224-9cfc-81782f7117bc",
+      "version_number": 1,
+      "file_path": "./uploaded_files/610685e7-e724-4224-9cfc-81782f7117bc_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 07:19:42.744430"
+    },
+    "552b6bcc-cf96-4a51-ae29-f94c0d2b4162": {
+      "id": "552b6bcc-cf96-4a51-ae29-f94c0d2b4162",
+      "document_id": "af87a0ad-4fa3-46b0-8637-f59f06a06099",
+      "version_number": 1,
+      "file_path": "./uploaded_files/af87a0ad-4fa3-46b0-8637-f59f06a06099_test.png",
+      "file_hash": "4bdb02155ca64f16fb5a46e2ddf673b049378eeb96b4f3179793edcb200ce3a9",
+      "embedded": false,
+      "created_at": "2025-08-09 07:20:37.464950"
+    },
+    "dbc986d3-e7ba-44c6-95e7-e1c861b0a166": {
+      "id": "dbc986d3-e7ba-44c6-95e7-e1c861b0a166",
+      "document_id": "fe9f773e-7abb-4b39-9b33-c5918dd8cf9b",
+      "version_number": 1,
+      "file_path": "./uploaded_files/fe9f773e-7abb-4b39-9b33-c5918dd8cf9b_smile.jpg",
+      "file_hash": "e798eb42193868c4f2c21a56a7720412f6d45dff44fd153809704e017f5779c6",
+      "embedded": false,
+      "created_at": "2025-08-09 07:37:47.068082"
+    },
+    "ef9b0aae-5cdd-4167-a4fd-6d5f3df91f66": {
+      "id": "ef9b0aae-5cdd-4167-a4fd-6d5f3df91f66",
+      "document_id": "22fc0cde-69cc-4a06-ac1e-454d294cadd9",
+      "version_number": 1,
+      "file_path": "./uploaded_files/22fc0cde-69cc-4a06-ac1e-454d294cadd9_smile.jpg",
+      "file_hash": "e798eb42193868c4f2c21a56a7720412f6d45dff44fd153809704e017f5779c6",
+      "embedded": false,
+      "created_at": "2025-08-09 07:39:30.139711"
+    },
+    "cff9045f-9cda-40ca-8a19-e8fb513cc055": {
+      "id": "cff9045f-9cda-40ca-8a19-e8fb513cc055",
+      "document_id": "c83f1c99-4e2c-4662-918f-3d143f049481",
+      "version_number": 1,
+      "file_path": "./uploaded_files/c83f1c99-4e2c-4662-918f-3d143f049481_smile.jpg",
+      "file_hash": "e798eb42193868c4f2c21a56a7720412f6d45dff44fd153809704e017f5779c6",
+      "embedded": false,
+      "created_at": "2025-08-09 07:39:59.693469"
+    },
+    "bebd2abb-e5d6-4ea9-908a-3b68f1171e24": {
+      "id": "bebd2abb-e5d6-4ea9-908a-3b68f1171e24",
+      "document_id": "261836c6-4624-435f-9b8f-210263cb291c",
+      "version_number": 1,
+      "file_path": "./uploaded_files/261836c6-4624-435f-9b8f-210263cb291c_smile.jpg",
+      "file_hash": "e798eb42193868c4f2c21a56a7720412f6d45dff44fd153809704e017f5779c6",
+      "embedded": false,
+      "created_at": "2025-08-09 07:40:29.847253"
+    },
+    "6146ae00-d2b5-441b-b77d-c26c5756b7c7": {
+      "id": "6146ae00-d2b5-441b-b77d-c26c5756b7c7",
+      "document_id": "24f241f2-dd8e-49f4-bd37-671bd578861d",
+      "version_number": 1,
+      "file_path": "./uploaded_files/24f241f2-dd8e-49f4-bd37-671bd578861d_smile.jpg",
+      "file_hash": "e798eb42193868c4f2c21a56a7720412f6d45dff44fd153809704e017f5779c6",
+      "embedded": false,
+      "created_at": "2025-08-09 07:42:00.825352"
+    },
+    "03bd4759-656b-41eb-9926-cb90c30ec49e": {
+      "id": "03bd4759-656b-41eb-9926-cb90c30ec49e",
+      "document_id": "aab48dfa-e53f-4c8c-949d-07b44f81ae23",
+      "version_number": 1,
+      "file_path": "./uploaded_files/aab48dfa-e53f-4c8c-949d-07b44f81ae23_smile.jpg",
+      "file_hash": "e798eb42193868c4f2c21a56a7720412f6d45dff44fd153809704e017f5779c6",
+      "embedded": false,
+      "created_at": "2025-08-09 07:42:26.762907"
+    },
+    "a64d7ba1-8395-4c3c-be9a-30a11d80b7f5": {
+      "id": "a64d7ba1-8395-4c3c-be9a-30a11d80b7f5",
+      "document_id": "b32666be-d19f-423e-afbe-e43c699d6849",
+      "version_number": 1,
+      "file_path": "./uploaded_files/b32666be-d19f-423e-afbe-e43c699d6849_smile.jpg",
+      "file_hash": "e798eb42193868c4f2c21a56a7720412f6d45dff44fd153809704e017f5779c6",
+      "embedded": false,
+      "created_at": "2025-08-09 07:43:08.474364"
     }
   }
 }

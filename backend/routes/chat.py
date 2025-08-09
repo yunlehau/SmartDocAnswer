@@ -8,7 +8,7 @@ router = APIRouter()
 @router.post("/chat")
 async def chat(
     message: str = Form(...),
-    context_file: Optional[UploadFile] = File(default=None, description="Optional .txt or .pdf file")
+    context_file: Optional[UploadFile] = File(default=None, description="Optional .txt, .pdf or .jpg, .png, .jpeg file")
 ):
     try:
         result = await handle_chat_request(context_file, message)
@@ -17,3 +17,4 @@ async def chat(
         raise http_err
     except Exception as e:
         return JSONResponse(content={"error": str(e), "status": "error"}, status_code=500)
+

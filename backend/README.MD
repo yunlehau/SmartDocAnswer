@@ -46,7 +46,7 @@ source venv/bin/activate
 
 ### 2. Install Dependencies
 ```bash
-pip install fastapi uvicorn python-multipart PyPDF2 openai
+pip install fastapi uvicorn python-multipart PyPDF2 openai transformers Pillow torch tensorflow pytesseract scipy langdetect
 ```
 
 ### 3. Run the Server

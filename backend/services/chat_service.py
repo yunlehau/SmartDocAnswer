@@ -7,6 +7,8 @@ from fastapi import UploadFile, HTTPException
 from openai import OpenAI
 from typing import Optional, Union
 from uuid import uuid4
+from services.text_to_speech import text_to_speech
+from services.image_to_text import ocr_page
 from services.file_service import (
     save_file_to_disk,
     calculate_file_hash,
@@ -42,12 +44,12 @@ def extract_text_from_file_path(file_path: str) -> str:
         raise HTTPException(status_code=500, detail=f"Failed to read fallback file: {str(e)}")
     return text
 
-async def handle_chat_request(file: Optional[UploadFile], user_input: str) -> str:
+async def handle_chat_request(file: Optional[UploadFile], user_input: str, tts_enabled: bool = True) -> dict:
     DOCUMENT_CONTEXT = ""
 
     if file and hasattr(file, 'filename') and file.filename:
-        if not file.filename.lower().endswith((".txt", ".pdf")):
-            raise HTTPException(status_code=400, detail="Only .txt or .pdf files are supported")
+        if not file.filename.lower().endswith((".txt", ".pdf", ".jpg", ".jpeg", ".png")):
+            raise HTTPException(status_code=400, detail="Only .txt, .pdf or .png, .jpg, .jpeg files are supported")
 
         try:
             # Save uploaded file via full CMS logic
@@ -77,6 +79,9 @@ async def handle_chat_request(file: Optional[UploadFile], user_input: str) -> st
                     extracted_text = page.extract_text()
                     if extracted_text:
                         DOCUMENT_CONTEXT += extracted_text + "\n"
+            elif file.filename.lower().endswith((".jpg", ".jpeg", ".png")):
+                image_path = save_file_to_disk(file, doc.id)
+                DOCUMENT_CONTEXT += ocr_page(image_path, client, MODEL_NAME)
 
             if not DOCUMENT_CONTEXT.strip():
                 raise HTTPException(status_code=400, detail="Uploaded file is empty or no text could be extracted")
@@ -104,7 +109,8 @@ async def handle_chat_request(file: Optional[UploadFile], user_input: str) -> st
         f"You are an assistant that answers questions based on the following document content or general knowledge:\n\n"
         f"{DOCUMENT_CONTEXT}\n\n"
         f"If the answer is not found in the document, respond with 'Information not available in the provided document.'\n"
-        f"Now, answer the following question: {user_input}"
+        f"Now, answer the following question: {user_input} \n\n"
+        f"Should reponse in vietnamese if the user input is vietnamese"
     )
 
     try:
@@ -117,7 +123,22 @@ async def handle_chat_request(file: Optional[UploadFile], user_input: str) -> st
             max_tokens=500,
             temperature=0.7
         )
-        return response.choices[0].message.content
+        
+        llm_response = response.choices[0].message.content
+
+        # If TTS is enabled, generate speech and return both text and audio
+        if tts_enabled:
+            audio_io = text_to_speech(llm_response)  # Generate speech
+            return {
+                "response": llm_response,
+                "audio": audio_io,
+                "status": "success"
+            }
+        else:
+            return {
+                "response": llm_response,
+                "status": "success"
+            }
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"OpenAI API call failed: {str(e)}")
