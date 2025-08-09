@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { TEMP_API } from './config';
 import { useAudioPlayer } from "react-use-audio-player"
+import { base64ToUrl } from '../utils';
 
 const ChatBot = ({ darkMode }) => {
   const { load, togglePlayPause, isPlaying, isLoading: isAudioLoading } = useAudioPlayer()
@@ -134,11 +135,12 @@ const ChatBot = ({ darkMode }) => {
     }
   };
 
-  const handleLoadAudio = (url) => {
+  const handleLoadAudio = (file) => {
     try {
       if (isPlaying) {
         togglePlayPause();
       } else {
+        const url = base64ToUrl(file);
         load(url || 'https://stream.toohotradio.net/128', {
           autoplay: true,
           html5: true,
@@ -190,7 +192,7 @@ const ChatBot = ({ darkMode }) => {
               { msg.role === 'assistant' && 
                 (
                   
-                <div onClick={() => handleLoadAudio(msg?.url)} className="grid grid-flow-col justify-items-end mt-2 cursor-pointer">
+                <div onClick={() => handleLoadAudio(msg?.file)} className="grid grid-flow-col justify-items-end mt-2 cursor-pointer">
                   {
                    isAudioLoading ? 
                    <svg width="20" height="20" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Loading">
