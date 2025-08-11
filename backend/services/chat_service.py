@@ -89,7 +89,7 @@ async def handle_chat_request(file: Optional[UploadFile], user_input: str, tts_e
         except Exception as e:
             raise HTTPException(status_code=500, detail=f"Failed to read uploaded file: {str(e)}")
 
-    elif not file and user_input:
+    elif file and user_input:
         # Fallback: Read from uploaded_files folder
         if not os.path.exists(UPLOAD_FOLDER):
             DOCUMENT_CONTEXT = "The user did not upload a file, and no fallback documents are available."
@@ -110,10 +110,12 @@ async def handle_chat_request(file: Optional[UploadFile], user_input: str, tts_e
         f"{DOCUMENT_CONTEXT}\n\n"
         f"If the answer is not found in the document, respond with 'Information not available in the provided document.'\n"
         f"Now, answer the following question: {user_input} \n\n"
-        f"Should reponse in vietnamese if the user input is vietnamese"
+        f"Should reponse in english, the response should be modified into a human-readable format as plain text avoid markdown format"
     )
 
     try:
+
+        print('text', prompt);
         response = client.chat.completions.create(
             model=MODEL_NAME,
             messages=[

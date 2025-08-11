@@ -6,6 +6,7 @@ import { base64ToUrl } from '../utils';
 const ChatBot = ({ darkMode }) => {
   const { load, togglePlayPause, isPlaying, isLoading: isAudioLoading } = useAudioPlayer()
   const [messages, setMessages] = useState([]);
+  const [audio, setAudio] = useState('');
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [file, setFile] = useState(null);
@@ -19,10 +20,11 @@ const ChatBot = ({ darkMode }) => {
     'application/pdf',                                                   // PDF
     'application/msword',                                                // DOC
     'application/vnd.openxmlformats-officedocument.wordprocessingml.document', // DOCX
-    'text/plain'                                                        // TXT
+    'text/plain',
+    'image/png'                                             
   ];
   
-  const fileTypeExtensions = '.pdf,.doc,.docx,.txt';
+  const fileTypeExtensions = '.pdf,.doc,.docx,.txt,.png';
 
   // Scroll to bottom whenever messages change
   useEffect(() => {
@@ -113,16 +115,25 @@ const ChatBot = ({ darkMode }) => {
       const response = await fetch(`${TEMP_API}/chat`, {
           method: 'POST',
           headers: {},
-          // body: formData
           body: formData
         });
-        
         const data = await response.json();
+
+        // If data.response is an object, extract the text and audio
+        let aiText = "";
+        let aiAudio = "";
+        if (data.response !== null) {
+          aiText = data.response.response || "";
+          aiAudio = data.response.audio || "";
+        }
+
+        console.log('data',data)
         const aiResponse = { 
           role: 'assistant', 
-          content: data?.response || "Sorry, there was an error processing your request."
+          content: aiText || "Sorry, there was an error processing your request."
         };
         setMessages(prevMessages => [...prevMessages, aiResponse]);
+        setAudio(aiAudio);
         setIsLoading(false);
       
     } catch (error) {
@@ -135,12 +146,12 @@ const ChatBot = ({ darkMode }) => {
     }
   };
 
-  const handleLoadAudio = (file) => {
+  const handleLoadAudio = () => {
     try {
       if (isPlaying) {
         togglePlayPause();
       } else {
-        const url = base64ToUrl(file);
+        const url = base64ToUrl(audio);
         load(url || 'https://stream.toohotradio.net/128', {
           autoplay: true,
           html5: true,

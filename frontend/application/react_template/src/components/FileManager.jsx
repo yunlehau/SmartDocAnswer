@@ -17,10 +17,11 @@ const FileManager = ({ darkMode }) => {
     'application/pdf',                                                   // PDF
     'application/msword',                                                // DOC
     'application/vnd.openxmlformats-officedocument.wordprocessingml.document', // DOCX
-    'text/plain'                                                         // TXT
+    'text/plain',                                                         // TXT
+    'image/png'
   ];
   
-  const fileTypeExtensions = '.pdf,.doc,.docx,.txt';
+  const fileTypeExtensions = '.pdf,.doc,.docx,.txt,.png,.jpg';
 
   // Mock function to load files (in a real app, this would call your API)
   
