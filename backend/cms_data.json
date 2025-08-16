@@ -934,6 +934,23 @@
         "a64d7ba1-8395-4c3c-be9a-30a11d80b7f5"
       ],
       "status": "uploaded"
+    },
+    "3d82a089-b126-4bc2-9a3c-9f48b1840dc4": {
+      "id": "3d82a089-b126-4bc2-9a3c-9f48b1840dc4",
+      "title": "security",
+      "file_name": "security_v1_202406.pdf",
+      "tags": [
+        ""
+      ],
+      "language": "en",
+      "category": "general",
+      "uploaded_by": "system",
+      "created_at": "2025-08-16 04:05:05.304482",
+      "updated_at": "2025-08-16 04:05:05.304482",
+      "versions": [
+        "77258ce3-d535-4f76-aac3-126c2e7f6fa3"
+      ],
+      "status": "uploaded"
     }
   },
   "versions": {
@@ -1431,6 +1448,15 @@
       "file_hash": "e798eb42193868c4f2c21a56a7720412f6d45dff44fd153809704e017f5779c6",
       "embedded": false,
       "created_at": "2025-08-09 07:43:08.474364"
+    },
+    "77258ce3-d535-4f76-aac3-126c2e7f6fa3": {
+      "id": "77258ce3-d535-4f76-aac3-126c2e7f6fa3",
+      "document_id": "3d82a089-b126-4bc2-9a3c-9f48b1840dc4",
+      "version_number": 1,
+      "file_path": "./uploaded_files\\3d82a089-b126-4bc2-9a3c-9f48b1840dc4_security_v1_202406.pdf",
+      "file_hash": "d0010a444302171caeedef54c8bca2fe0d59ee7245a6bc917ba5b887d07b9008",
+      "embedded": false,
+      "created_at": "2025-08-16 04:05:08.703885"
     }
   }
 }

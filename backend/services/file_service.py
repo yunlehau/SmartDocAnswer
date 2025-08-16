@@ -6,6 +6,7 @@ import hashlib
 import shutil
 from fastapi import UploadFile
 from models.document import Document, DocumentVersion
+from services.vector_db_service import process_and_store_document
 
 UPLOAD_DIR = "./uploaded_files"
 DB_CACHE_FILE = "./cms_data.json"
@@ -18,6 +19,14 @@ def save_file_to_disk(upload_file: UploadFile, doc_id: str) -> str:
     file_path = os.path.join(UPLOAD_DIR, f"{doc_id}_{upload_file.filename}")
     with open(file_path, "wb") as buffer:
         shutil.copyfileobj(upload_file.file, buffer)
+    # Thêm vào vector DB sau khi lưu file
+    try:
+        if file_path.lower().endswith((".txt", ".pdf")):
+            with open(file_path, "rb") as f:
+                file_content = f.read() if file_path.lower().endswith('.pdf') else None
+            process_and_store_document(file_path, file_content, is_uploaded=False)
+    except Exception as e:
+        print(f"[VectorDB] Error indexing file: {file_path}: {str(e)}")
     return file_path
 
 def calculate_file_hash(file_path: str) -> str:
