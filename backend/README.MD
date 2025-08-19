@@ -1,16 +1,17 @@
 # 📁 RAG File CMS API with OpenAI Chat
 
-A modular FastAPI-based Content Management System that enables file upload, versioning, preview, and OpenAI-powered document Q&A chat.
+A modular FastAPI-based Content Management System that enables file upload, versioning, preview, semantic search (ChromaDB), and OpenAI-powered document Q&A chat.
 
 ---
 
 ## 🚀 Features
 
-- Upload files (PDF, DOCX, TXT, etc.) with metadata
+- Upload files (PDF, TXT, etc.) with metadata
 - File versioning support
 - File preview and download
 - Persistent local storage using JSON (no database required)
 - OpenAI GPT-4.1 integration for document-based Q&A
+- Semantic search with ChromaDB + SentenceTransformer
 - Modular FastAPI backend with best practices
 - Swagger UI at `/docs`
 - CORS enabled for frontend access
@@ -20,18 +21,22 @@ A modular FastAPI-based Content Management System that enables file upload, vers
 ## 📦 Project Structure
 
 ```
-cms_backend/
+backend/
 ├── main.py                     # FastAPI app entry point
 ├── models/
 │   └── document.py             # Document and Version models
 ├── routes/
 │   ├── files.py                # File upload, list, preview, delete
-│   └── chat.py                 # Chat endpoint using OpenAI
+│   └── chat.py                 # Chat endpoint using OpenAI + ChromaDB
 ├── services/
-│   ├── file_service.py         # File saving, hashing, DB load/save
-│   └── chat_service.py         # OpenAI integration + file parsing
+│   ├── file_service.py         # File saving, hashing, DB load/save, auto vector index
+│   ├── chat_service.py         # OpenAI integration + context retrieval
+│   └── vector_db_service.py    # ChromaDB + SentenceTransformer for semantic search
+│   └── image_to_text.py        # OCR for image files
+│   └── text_to_speech.py       # TTS for chat response
 ├── uploaded_files/             # Where user files are stored
 ├── cms_data.json               # Metadata persistence
+├── chroma_data/                # ChromaDB persistent vector storage
 ```
 
 ---
@@ -39,18 +44,18 @@ cms_backend/
 ## 🧪 Local Setup
 
 ### 1. Create Virtual Environment
-```bash
-python3 -m venv venv
-source venv/bin/activate
+```powershell
+python -m venv venv
+venv\Scripts\activate
 ```
 
 ### 2. Install Dependencies
-```bash
-pip install fastapi uvicorn python-multipart PyPDF2 openai transformers Pillow torch tensorflow pytesseract scipy langdetect
+```powershell
+pip install fastapi uvicorn python-multipart PyPDF2 openai chromadb sentence-transformers Pillow torch tensorflow pytesseract scipy langdetect
 ```
 
 ### 3. Run the Server
-```bash
+```powershell
 uvicorn main:app --reload
 ```
 
@@ -74,18 +79,18 @@ uvicorn main:app --reload
 
 ---
 
-### 💬 Chat (OpenAI-powered)
+### 💬 Chat (OpenAI + ChromaDB-powered)
 
 | Method | Endpoint     | Description                                 |
 |--------|--------------|---------------------------------------------|
-| POST   | `/api/chat`  | Ask a question based on uploaded document   |
+| POST   | `/api/chat`  | Ask a question based on uploaded document (semantic search via ChromaDB) |
 | GET    | `/api/health`| Health check                                |
 
 ### 🔧 Example Usage (Chat)
 
-```bash
-curl -X POST http://localhost:8000/api/chat \
-  -F context_file=@example.pdf \
+```powershell
+curl -X POST http://localhost:8000/api/chat ^
+  -F context_file=@example.pdf ^
   -F message="What is the purpose of this document?"
 ```
 
@@ -104,7 +109,7 @@ curl -X POST http://localhost:8000/api/chat \
 
 - Dockerfile + Docker Compose support
 - Role-based authentication & admin UI
-- Vector DB integration (Qdrant / Pinecone)
+- Vector DB integration (ChromaDB, Qdrant / Pinecone)
 - Streaming answer support via SSE
 - React frontend integration
 
@@ -112,5 +117,5 @@ curl -X POST http://localhost:8000/api/chat \
 
 ## 👨‍💻 Author
 
-Built with ❤️ using FastAPI + OpenAI. Ready for enterprise-scale document Q&A.
+Built with ❤️ using FastAPI + OpenAI + ChromaDB. Ready for enterprise-scale document Q&A.
 
