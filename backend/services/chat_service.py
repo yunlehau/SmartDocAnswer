@@ -48,12 +48,12 @@ def extract_text_from_file_path(file_path: str) -> str:
 async def handle_chat_request(file: Optional[UploadFile], user_input: str, tts_enabled: bool = True) -> dict:
     DOCUMENT_CONTEXT = ""
     chroma_inserted = False
+    source_info = []
     # Nếu có file upload
     if file and hasattr(file, 'filename') and file.filename:
         if not file.filename.lower().endswith((".txt", ".pdf", ".jpg", ".jpeg", ".png")):
             raise HTTPException(status_code=400, detail="Only .txt, .pdf or .png, .jpg, .jpeg files are supported")
         try:
-            # Save uploaded file via full CMS logic
             doc = Document(
                 title=f"Chat Upload - {file.filename}",
                 file_name=file.filename,
@@ -69,28 +69,80 @@ async def handle_chat_request(file: Optional[UploadFile], user_input: str, tts_e
             documents_db[doc.id] = doc
             versions_db[version.id] = version
             save_db_to_disk()
-            # Kiểm tra file đã có trong ChromaDB chưa (dựa trên file_path)
-            # Nếu chưa thì insert vào ChromaDB
-            # (ChromaDB không có API check trực tiếp, nên sẽ insert lại nếu chưa có)
             chroma_inserted = process_and_store_document(file_path, None, is_uploaded=False)
             # Query context từ ChromaDB
-            DOCUMENT_CONTEXT = query_documents(user_input, n_results=3)
+            context_results = query_documents(user_input, n_results=10)
+            # Nếu context trả về dạng list các đoạn, loại bỏ trùng lặp
+            if isinstance(context_results, list):
+                unique = []
+                seen = set()
+                for c in context_results:
+                    key = (c.get("text", ""), c.get("source", file.filename), c.get("page", None))
+                    if key not in seen and c.get("text", "").strip():
+                        unique.append(c)
+                        seen.add(key)
+                DOCUMENT_CONTEXT = "\n".join([c.get("text", "") for c in unique])
+                for c in unique:
+                    source_info.append({
+                        "file": c.get("source", file.filename),
+                        "page": c.get("page", None)
+                    })
+            else:
+                DOCUMENT_CONTEXT = context_results
             if not DOCUMENT_CONTEXT.strip():
                 raise HTTPException(status_code=400, detail="No relevant context found in ChromaDB")
         except Exception as e:
             raise HTTPException(status_code=500, detail=f"Failed to process file with ChromaDB: {str(e)}")
     elif file and user_input:
-        # Fallback: Query context từ ChromaDB với user_input
-        DOCUMENT_CONTEXT = query_documents(user_input, n_results=3)
+        context_results = query_documents(user_input, n_results=3)
+        if isinstance(context_results, list):
+            unique = []
+            seen = set()
+            for c in context_results:
+                key = (c.get("text", ""), c.get("source", None), c.get("page", None))
+                if key not in seen and c.get("text", "").strip():
+                    unique.append(c)
+                    seen.add(key)
+            DOCUMENT_CONTEXT = "\n".join([c.get("text", "") for c in unique])
+            for c in unique:
+                source_info.append({
+                    "file": c.get("source", None),
+                    "page": c.get("page", None)
+                })
+        else:
+            DOCUMENT_CONTEXT = context_results
         if not DOCUMENT_CONTEXT.strip():
             DOCUMENT_CONTEXT = "No relevant document context found."
     else:
-        DOCUMENT_CONTEXT = query_documents(user_input, n_results=3)
+        context_results = query_documents(user_input, n_results=3)
+        if isinstance(context_results, list):
+            unique = []
+            seen = set()
+            for c in context_results:
+                key = (c.get("text", ""), c.get("source", None), c.get("page", None))
+                if key not in seen and c.get("text", "").strip():
+                    unique.append(c)
+                    seen.add(key)
+            DOCUMENT_CONTEXT = "\n".join([c.get("text", "") for c in unique])
+            for c in unique:
+                source_info.append({
+                    "file": c.get("source", None),
+                    "page": c.get("page", None)
+                })
+        else:
+            DOCUMENT_CONTEXT = context_results
         if not DOCUMENT_CONTEXT.strip():
             DOCUMENT_CONTEXT = "No relevant document context found."
+
+    # Tạo prompt kèm thông tin nguồn
+    source_str = "\n".join([
+        f"Source: {s['file']}{' - Page: ' + str(s['page']) if s['page'] else ''}" for s in source_info if s.get('file')
+    ])
     prompt = (
         f"You are an assistant that answers questions based on the following document content or general knowledge:\n\n"
         f"{DOCUMENT_CONTEXT}\n\n"
+        f"If the answer is found in the document, you must clearly state the source (file name and page number if available) in your answer.\n"
+        f"Sources:\n{source_str}\n"
         f"If the answer is not found in the document, respond with 'Information not available in the provided document.'\n"
         f"Now, answer the following question: {user_input} \n\n"
         f"Should reponse in english, the response should be modified into a human-readable format as plain text avoid markdown format"

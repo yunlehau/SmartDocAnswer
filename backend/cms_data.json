@@ -951,6 +951,57 @@
         "77258ce3-d535-4f76-aac3-126c2e7f6fa3"
       ],
       "status": "uploaded"
+    },
+    "b4136d48-e041-48f0-a112-ec019bc97214": {
+      "id": "b4136d48-e041-48f0-a112-ec019bc97214",
+      "title": "security",
+      "file_name": "security_v1_202406.pdf",
+      "tags": [
+        "v1"
+      ],
+      "language": "en",
+      "category": "general",
+      "uploaded_by": "system",
+      "created_at": "2025-08-19 12:41:04.130769",
+      "updated_at": "2025-08-19 12:41:04.130769",
+      "versions": [
+        "02be155d-30ca-46de-949b-ea90d1b3f6d6"
+      ],
+      "status": "uploaded"
+    },
+    "f839cdd2-e79b-4280-b95f-1b0482e59582": {
+      "id": "f839cdd2-e79b-4280-b95f-1b0482e59582",
+      "title": "security",
+      "file_name": "security_v2_202507.pdf",
+      "tags": [
+        "v2"
+      ],
+      "language": "en",
+      "category": "general",
+      "uploaded_by": "system",
+      "created_at": "2025-08-19 12:41:16.572751",
+      "updated_at": "2025-08-19 12:41:16.572751",
+      "versions": [
+        "a372d3ec-252e-4e9d-8bd7-c03697c1c921"
+      ],
+      "status": "uploaded"
+    },
+    "521726cc-400f-4a20-a019-f32dcc34b974": {
+      "id": "521726cc-400f-4a20-a019-f32dcc34b974",
+      "title": "security",
+      "file_name": "security_v3_202508.pdf",
+      "tags": [
+        "v3"
+      ],
+      "language": "en",
+      "category": "general",
+      "uploaded_by": "system",
+      "created_at": "2025-08-19 12:41:26.161884",
+      "updated_at": "2025-08-19 12:41:26.161884",
+      "versions": [
+        "9b581cd9-a35c-45e4-9a86-4ab0b3f3919a"
+      ],
+      "status": "uploaded"
     }
   },
   "versions": {
@@ -1457,6 +1508,33 @@
       "file_hash": "d0010a444302171caeedef54c8bca2fe0d59ee7245a6bc917ba5b887d07b9008",
       "embedded": false,
       "created_at": "2025-08-16 04:05:08.703885"
+    },
+    "02be155d-30ca-46de-949b-ea90d1b3f6d6": {
+      "id": "02be155d-30ca-46de-949b-ea90d1b3f6d6",
+      "document_id": "b4136d48-e041-48f0-a112-ec019bc97214",
+      "version_number": 1,
+      "file_path": "./uploaded_files\\b4136d48-e041-48f0-a112-ec019bc97214_security_v1_202406.pdf",
+      "file_hash": "d0010a444302171caeedef54c8bca2fe0d59ee7245a6bc917ba5b887d07b9008",
+      "embedded": false,
+      "created_at": "2025-08-19 12:41:07.909505"
+    },
+    "a372d3ec-252e-4e9d-8bd7-c03697c1c921": {
+      "id": "a372d3ec-252e-4e9d-8bd7-c03697c1c921",
+      "document_id": "f839cdd2-e79b-4280-b95f-1b0482e59582",
+      "version_number": 1,
+      "file_path": "./uploaded_files\\f839cdd2-e79b-4280-b95f-1b0482e59582_security_v2_202507.pdf",
+      "file_hash": "f22a3a9387a2aa9af9497e29c79d501f3346118d12b0062954c518dc5d662792",
+      "embedded": false,
+      "created_at": "2025-08-19 12:41:16.654800"
+    },
+    "9b581cd9-a35c-45e4-9a86-4ab0b3f3919a": {
+      "id": "9b581cd9-a35c-45e4-9a86-4ab0b3f3919a",
+      "document_id": "521726cc-400f-4a20-a019-f32dcc34b974",
+      "version_number": 1,
+      "file_path": "./uploaded_files\\521726cc-400f-4a20-a019-f32dcc34b974_security_v3_202508.pdf",
+      "file_hash": "56fcb12c1833b86139054e891cd3ea2ac7e164f61019e9e35e6701a82eb04f97",
+      "embedded": false,
+      "created_at": "2025-08-19 12:41:26.238615"
     }
   }
 }

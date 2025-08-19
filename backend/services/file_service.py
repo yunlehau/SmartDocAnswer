@@ -6,7 +6,7 @@ import hashlib
 import shutil
 from fastapi import UploadFile
 from models.document import Document, DocumentVersion
-from services.vector_db_service import process_and_store_document
+from services.vector_db_service import process_and_store_document,compare_document_versions
 
 UPLOAD_DIR = "./uploaded_files"
 DB_CACHE_FILE = "./cms_data.json"

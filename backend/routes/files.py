@@ -1,10 +1,10 @@
 # routes/files.py
 
-from fastapi import APIRouter, UploadFile, File, Form, HTTPException
+from fastapi import APIRouter, UploadFile, File, Form, HTTPException, Query
 from fastapi.responses import FileResponse
 from models.document import Document, DocumentVersion
 from services.file_service import (
-    documents_db, versions_db,
+    documents_db, versions_db, compare_document_versions,
     save_file_to_disk, calculate_file_hash,
     save_db_to_disk
 )
@@ -98,3 +98,12 @@ def delete_file(doc_id: str):
             os.remove(version.file_path)
     save_db_to_disk()
     return {"message": f"Document {doc_id} and its versions deleted."}
+
+# API so sánh các version của tài liệu
+@router.get("/compare-versions")
+async def compare_versions(document_id: str = Query(..., description="ID của tài liệu")):
+    """
+    Trả về sự khác biệt giữa các version của tài liệu, kèm nguồn: tên tài liệu, version, số trang/đoạn.
+    """
+    result = compare_document_versions(document_id)
+    return {"diffs": result}
