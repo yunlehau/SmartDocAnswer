@@ -11,3 +11,4 @@ PyPDF2
 openai
 pytesseract
 Pillow
+python-multipart
