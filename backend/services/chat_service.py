@@ -20,8 +20,13 @@ from services.file_service import (
 )
 from services.vector_db_service import process_and_store_document, query_documents
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "sk-AYhG3o4Rp99ETzn7FlkEZw")
-OPENAI_ENDPOINT = "https://aiportalapi.stu-platform.live/use"
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_ENDPOINT = os.getenv("OPENAI_ENDPOINT")
 MODEL_NAME = "GPT-4.1"
 
 UPLOAD_FOLDER = "uploaded_files"
