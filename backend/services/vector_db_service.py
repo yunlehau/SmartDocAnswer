@@ -152,8 +152,8 @@ def process_and_store_document(file_path, file_content=None, is_uploaded=False):
             meta = {
                 "source": file_path,
                 "file": os.path.basename(file_path),
-                "page": page_info[i] if i < len(page_info) else None,
-                "version": version
+                "page": page_info[i] if i < len(page_info) and page_info[i] is not None else 0,
+                "version": version if version is not None else 1
             }
             collection.add(
                 documents=[chunk],
