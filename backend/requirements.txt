@@ -1,0 +1,13 @@
+fastapi
+flask
+chromadb
+sentence-transformers
+transformers
+torch
+numpy
+scipy
+langdetect
+PyPDF2
+openai
+pytesseract
+Pillow
